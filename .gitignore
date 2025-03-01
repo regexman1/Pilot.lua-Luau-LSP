@@ -12,3 +12,4 @@ wiki/docs/Classes/*
 # gatekeeping
 documentation.yaml
 partdata.json
+wiki.lua

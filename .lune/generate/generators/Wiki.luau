@@ -112,9 +112,8 @@ function Wiki.generate(options)
 
 			local documentedKey = if isUnknownType then "Undocumented" else "Documented"
 			local deprecatedKey = if isDeprecated then "Deprecated" else "Normal"
-
 			local group = source[member.Group][deprecatedKey][documentedKey]
-			table.insert(group, value.Type.Wiki or `- {member.Name}`)
+			table.insert(group, value.Type.Wiki:gsub("-", "###", 1):gsub("-", "####", 1) or `### {member.Name}`)
 		end
 
 		local plainDescription = ParseMiscellaneous.plainDescription(objectData)

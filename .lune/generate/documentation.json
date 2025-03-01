@@ -2528,7 +2528,6 @@
 					"CreateElement": {
 						"description": "Creates an element of the specified class name with the specified properties.",
 						"parameters": [
-							"screen: Screen",
 							"element: RobloxUIElement",
 							"properties: {[key: property]: value}"
 						],

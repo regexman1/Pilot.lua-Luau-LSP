@@ -19,5 +19,5 @@ Used to create the <code>coordinates</code> class.
 - **fromString**(_string_ CoordinateString, _CoordinateBounds_ CoordinateBounds) → _Coordinate_
 
 ### Values
-- _CoordinateBounds_ DEFAULT_COORDINATE_BOUNDS: The universe's coordinate bounds.
-- _CoordinateBounds_ NO_COORDINATE_BOUNDS: No bounds. Unlimited.
+- _CoordinateBounds_ **DEFAULT_COORDINATE_BOUNDS**: The universe's coordinate bounds.
+- _CoordinateBounds_ **NO_COORDINATE_BOUNDS**: No bounds. Unlimited.

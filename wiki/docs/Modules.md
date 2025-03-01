@@ -16,3 +16,4 @@ Used to create the <code>coordinates</code> class.
 - **new**(_number_ UniverseCoordinatesX, _number_ UniverseCoordinatesY, _number_ SolarCoordinatesX, _number_ SolarCoordinatesY, _boolean_ inPlanet) → _Coordinate_
 - **fromVector**(_Vector2_ UniverseCoordinates, _Vector2_ SolarCoordinates, _boolean_ inPlanet) → _Coordinate_
 - **withBounds**(_CoordinateBounds_ CoordinateBounds, _number_ UniverseCoordinatesX, _number_ UniverseCoordinatesY, _number_ SolarCoordinatesX, _number_ SolarCoordinatesY, _boolean_ inPlanet) → _Coordinate_
+- **fromString**(_string_ CoordinateString, _CoordinateBounds_ CoordinateBounds) → _Coordinate_

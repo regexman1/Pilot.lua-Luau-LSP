@@ -68,6 +68,7 @@
 				}
 			},
 			"ARCursor": {
+				"description": "Represents a cursor in an ARController.",
 				"properties": {
 					"Camera": {
 						"description": "The camera of the player associated with the mouse.",

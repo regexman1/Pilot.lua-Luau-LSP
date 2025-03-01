@@ -22,6 +22,17 @@ Used to create the <code>coordinates</code> class.
 - _CoordinateBounds_ **DEFAULT_COORDINATE_BOUNDS**: The universe's coordinate bounds.
 - _CoordinateBounds_ **NO_COORDINATE_BOUNDS**: No bounds. Unlimited.
 
+### Example usage
+```lua
+local Hyperdrive = GetPart("HyperDrive")
+local Coordinates = require("coordinates")
+Hyperdrive.Coordinates = Coordinates.fromVector(
+   Vector2.new(1, 1), -- sector coords
+   Vector2.new(1, 1), -- planet coords
+   false -- inside planet?
+)
+```
+
 ## fs
 ?
 

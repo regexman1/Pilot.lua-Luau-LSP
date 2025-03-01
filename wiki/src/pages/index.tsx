@@ -25,6 +25,7 @@ function HomepageHeader() {
 					>
 						Waste of Space Documentation
 					</Link>
+					<image src="https://files.catbox.moe/e3nf2a.png"></image>
 				</div>
 			</div>
 		</header>

@@ -758,7 +758,7 @@
 				}
 			},
 			"Battery": {
-				"description": "A light part that contains 400 energy and is prefilled. Can be refilled.",
+				"description": "A light part that contains 400 energy and is prefilled. Cannot be refilled.",
 				"extends": "ContainerObject"
 			},
 			"Beacon": {

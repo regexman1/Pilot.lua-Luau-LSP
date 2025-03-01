@@ -61,3 +61,13 @@ This module returns a function which when passed to it, it prints the table with
 local repr = require("repr")
 print(repr({"hi"})) -- {"hi"}
 ```
+
+## signal
+Signal module. [Learn more about it here](https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063)
+
+## symbol
+This module returns a function which converts a string to a <code>symbol</code> (internally a _UserData_)
+```lua
+local symbol = require("symbol")
+print(symbol("MySignal")) -- Symbol<MySignal>
+```

@@ -1620,8 +1620,9 @@
 				},
 				"properties": {
 					"Coordinates": {
-						"description": "The coordinates to warp to.",
-						"type": "Coordinate"
+						"description": "The coordinates to warp to, Note that you need the <code>coordinates</code> module to create coordinates.",
+						"type": "Coordinate",
+						"codesample": "local HyperDrive = GetPart('HyperDrive')\nlocal Coordinates = require('coordinates')\nHyperDrive.Coordinates = Coordinates.fromVector(\n   Vector2.new(1, 1), -- universe coordinates\n   Vector2.new(1, 1), -- solar coordinates\n   false -- in planet?\n)"
 					}
 				}
 			},

@@ -85,7 +85,7 @@ function Wiki.generate(options)
 	local generatedPages = {
 		["Objects"] = {},
 		["Classes"] = {},
-		["ProgrammableObjects"] = {},
+		["Programmable Objects"] = {},
 	}
 	local paths = {}
 
@@ -139,7 +139,7 @@ function Wiki.generate(options)
 
 		local section = if objectData.Group == "abstractclasses"
 			then "Classes"
-			elseif objectData.IsProgrammable then "ProgrammableObjects"
+			elseif objectData.IsProgrammable then "Programmable Objects"
 			else "Objects"
 
 		paths[objectName] = `/docs/{section}/{objectName}.md`

@@ -265,7 +265,7 @@
 						"returns": ["boolean"]
 					},
 					"Click": {
-						"unknowntype": true
+						"description": "This method simulates a player click on this object when fired."
 					},
 					"GetColor": {
 						"deprecated": "Use `.Color` instead.",

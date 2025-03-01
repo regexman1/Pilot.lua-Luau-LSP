@@ -98,7 +98,6 @@ function Wiki.generate(options)
 		if #objectData.Categories > 0 then
 			metadata.tags = table.clone(objectData.Categories)
 		end
-
 		for _, member in objectData.Members do
 			local source = pageOutput[member.Source]
 			if not source then

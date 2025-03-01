@@ -8,3 +8,7 @@ wiki/docs/Classes/*
 
 # miscellaneous
 .DS_Store
+
+# gatekeeping
+documentation.yaml
+partdata.json

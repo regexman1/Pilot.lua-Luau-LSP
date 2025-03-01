@@ -44,3 +44,9 @@ This module is used to convert roblox usernames to userids and the other way aro
 ## promise
 Promise module. [Learn more about it here](https://eryn.io/roblox-lua-promise/)
 
+## repr
+This module returns a function which when passed to it, it prints the table with formatting.
+```lua
+local repr = require("repr")
+print(repr({"hi"})) -- {"hi"}
+```

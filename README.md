@@ -1,4 +1,4 @@
-## WOS wiki & types
+## WOS Wiki documentation & Types for luau LSP.
 Project originally made by arvid. Continued by regexman since arvid left WOS.
 
 ## Installation

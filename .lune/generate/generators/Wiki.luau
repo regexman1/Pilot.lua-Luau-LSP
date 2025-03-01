@@ -114,7 +114,7 @@ function Wiki.generate(options)
 			local deprecatedKey = if isDeprecated then "Deprecated" else "Normal"
 
 			local group = source[member.Group][deprecatedKey][documentedKey]
-			table.insert(group, value.Type.Wiki or `#### {member.Name}`)
+			table.insert(group, value.Type.Wiki or `- {member.Name}`)
 		end
 
 		local plainDescription = ParseMiscellaneous.plainDescription(objectData)
@@ -136,7 +136,7 @@ function Wiki.generate(options)
 		end
 
 		if next(metadata) then
-			table.insert(output, 1, `####\n{serde.encode("yaml", metadata)}---`)
+			table.insert(output, 1, `---\n{serde.encode("yaml", metadata)}---`)
 		end
 
 		local section = if objectData.Group == "abstractclasses"

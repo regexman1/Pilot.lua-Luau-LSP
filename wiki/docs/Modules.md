@@ -88,5 +88,5 @@ This module is used to tween values.
 - **:GetValue**(_number_ Alpha, _Enum.EasingStyle_ EasingStyle, _Enum.EasingDirection_ EasingDirection) → _number_
 
 ## ar_input
-This modules types are currently too vague and hence documentation will not be writren until I write better types for it.
+This modules types are currently too vague and hence documentation will not be written until I write better types for it.
 **TBD**.

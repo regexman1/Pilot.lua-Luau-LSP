@@ -84,6 +84,12 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
+				{
+					type: 'docSidebar',
+					sidebarId: 'modulesSidebar',
+					position: 'left',
+					label: 'Modules',
+				},
         {
           href: 'https://github.com/regexman1/Pilot.lua-Luau-LSP',
           label: 'GitHub',

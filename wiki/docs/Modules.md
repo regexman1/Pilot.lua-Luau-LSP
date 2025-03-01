@@ -9,8 +9,8 @@ This page is manually transcribed. Report any outdated info in issues!
 Used to create the <code>coordinates</code> class.
 
 ### Related types
-- _Coordinate_: {UniverseCoordinates: _Vector2_, SolarCoordinates: _Vector2_, ...}
-- _CoordinateBounds_: {_Vector2_, _Vector2_, _Vector2_, _Vector2_}
+- _Coordinate_: \{UniverseCoordinates: _Vector2_, SolarCoordinates: _Vector2_, ...\}
+- _CoordinateBounds_: \{_Vector2_, _Vector2_, _Vector2_, _Vector2_\}
 
 ### Methods
 - **new**(_number_ UniverseCoordinatesX, _number_ UniverseCoordinatesY, _number_ SolarCoordinatesX, _number_ SolarCoordinatesY, _boolean_ inPlanet) → _Coordinate_

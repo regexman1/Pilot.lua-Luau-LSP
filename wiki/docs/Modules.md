@@ -71,3 +71,12 @@ This module returns a function which converts a string to a <code>symbol</code> 
 local symbol = require("symbol")
 print(symbol("MySignal")) -- Symbol<MySignal>
 ```
+
+## tableUtil
+tableUtil module. [Learn more about it here](https://sleitnick.github.io/RbxUtil/api/TableUtil/)
+
+## trove
+trove module. [Learn more about it here](https://sleitnick.github.io/RbxUtil/api/Trove/)
+
+## sift
+sift module. [Learn more about it here](https://github.com/cxmeel/sift)

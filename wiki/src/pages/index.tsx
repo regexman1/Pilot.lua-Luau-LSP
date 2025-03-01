@@ -27,7 +27,6 @@ function HomepageHeader() {
 					</Link>
 				</div>
 			</div>
-			<image src="https://files.catbox.moe/e3nf2a.png" align="center"></image>
 		</header>
 	);
 }

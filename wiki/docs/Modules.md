@@ -21,3 +21,23 @@ Used to create the <code>coordinates</code> class.
 ### Values
 - _CoordinateBounds_ **DEFAULT_COORDINATE_BOUNDS**: The universe's coordinate bounds.
 - _CoordinateBounds_ **NO_COORDINATE_BOUNDS**: No bounds. Unlimited.
+
+## fs
+?
+
+## nature2d
+Nature2D module. [Learn more about it here](https://jaipack17.github.io/Nature2D/)
+
+## octree
+Octree module. [Learn more about it here](https://quenty.github.io/NevermoreEngine/api/Octree/)
+
+## partdata
+This module returns a table of components & parts. TBD
+
+## players
+This module is used to convert roblox usernames to userids and the other way around.
+
+### Methods
+- **:GetUsername**(_number_ userid) → _string_ username
+- **:GetUserId**(_string_ username) → _number_ userid
+

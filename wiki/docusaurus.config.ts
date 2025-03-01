@@ -72,6 +72,12 @@ const config: Config = {
 	        position: 'left',
 	        label: 'Classes'
 	      },
+				{
+					type: 'docSidebar',
+					sidebarId: 'programmableSidebar',
+					position: 'left',
+					label: 'Programmable Objects'
+				},
         {
           type: 'docSidebar',
           sidebarId: 'documentationSidebar',

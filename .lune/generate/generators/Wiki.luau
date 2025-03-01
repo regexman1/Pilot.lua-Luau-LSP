@@ -136,7 +136,7 @@ function Wiki.generate(options)
 		end
 
 		if next(metadata) then
-			table.insert(output, 1, `---\n{serde.encode("yaml", metadata)}---`)
+			table.insert(output, 1, `####\n{serde.encode("yaml", metadata)}---`)
 		end
 
 		local section = if objectData.Group == "abstractclasses"

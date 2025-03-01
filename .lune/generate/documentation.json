@@ -2517,7 +2517,7 @@
 			},
 			"Screen": {
 				"categories": ["Logic", "Electrical"],
-				"description": "A programmable object capable of showing text, buttons and images on an LED display. Very useful for creating custom programmable interfaces.",
+				"description": "A programmable object capable of showing text, buttons and images on an LED display. Very useful for creating custom programmable interfaces. Only works when powered.",
 				"events": {
 					"Configured": true
 				},
@@ -2527,7 +2527,8 @@
 					},
 					"CreateElement": {
 						"description": "Creates an element of the specified class name with the specified properties.",
-						"generate": "Screen"
+						"generate": "Screen",
+						"codesample": "local Screen = GetPart(\"Screen\")\nlocal TextLabel = Screen:CreateElement(\"TextLabel\")\nTextLabel.Text = \"Hello\"\nTextLabel.Size = UDim2.fromScale(1, 1)\nwhile true do\n   task.wait(10)\nend"
 					},
 					"GetCanvas": {
 						"description": "Returns the parent container of all the screen's content.",

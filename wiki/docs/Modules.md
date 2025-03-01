@@ -80,3 +80,13 @@ trove module. [Learn more about it here](https://sleitnick.github.io/RbxUtil/api
 
 ## sift
 sift module. [Learn more about it here](https://github.com/cxmeel/sift)
+
+## tween
+This module is used to tween values.
+
+### Methods
+- **:GetValue**(_number_ Alpha, _Enum.EasingStyle_ EasingStyle, _Enum.EasingDirection_ EasingDirection) → _number_
+
+## ar_input
+This modules types are currently too vague and hence documentation will not be writren until I write better types for it.
+**TBD**.

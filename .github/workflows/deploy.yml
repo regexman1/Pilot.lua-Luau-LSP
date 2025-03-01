@@ -4,7 +4,6 @@ on:
   push:
     paths:
       - wiki/**
-      - .lune/**
       - .github/workflows/deploy.yml
     branches:
       - master

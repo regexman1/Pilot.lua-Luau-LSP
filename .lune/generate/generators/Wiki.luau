@@ -142,7 +142,7 @@ function Wiki.generate(options)
 			elseif objectData.IsProgrammable then "Programmable Objects"
 			else "Objects"
 
-		paths[objectName] = `/docs/{section:gsub(" ", "+")}/{objectName}.md`
+		paths[objectName] = `</docs/{section}/{objectName}.md>`
 		generatedPages[section][objectName] = table.concat(output, "\n\n")
 	end
 

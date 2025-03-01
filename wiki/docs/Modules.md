@@ -41,3 +41,6 @@ This module is used to convert roblox usernames to userids and the other way aro
 - **:GetUsername**(_number_ userid) → _string_ username
 - **:GetUserId**(_string_ username) → _number_ userid
 
+## promise
+Promise module. [Learn more about it here](https://eryn.io/roblox-lua-promise/)
+

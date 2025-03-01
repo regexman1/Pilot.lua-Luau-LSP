@@ -114,7 +114,7 @@ function Wiki.generate(options)
 			local deprecatedKey = if isDeprecated then "Deprecated" else "Normal"
 
 			local group = source[member.Group][deprecatedKey][documentedKey]
-			table.insert(group, value.Type.Wiki or `- {member.Name}`)
+			table.insert(group, value.Type.Wiki or `#### {member.Name}`)
 		end
 
 		local plainDescription = ParseMiscellaneous.plainDescription(objectData)

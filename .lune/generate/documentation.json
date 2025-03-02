@@ -2527,11 +2527,7 @@
 					},
 					"CreateElement": {
 						"description": "Creates an element of the specified class name with the specified properties.",
-						"parameters": [
-							"element: RobloxUIElement",
-							"properties: {[key: property]: value}"
-						],
-						"codesample": "local Screen = GetPart(\"Screen\")\nlocal TextLabel = Screen:CreateElement(\"TextLabel\")\nTextLabel.Text = \"Hello\"\nTextLabel.Size = UDim2.fromScale(1, 1)\nwhile true do\n   task.wait(10)\nend"
+						"generate": "Screen"
 					},
 					"GetCanvas": {
 						"description": "Returns the parent container of all the screen's content.",

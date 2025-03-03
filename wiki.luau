@@ -7,7 +7,7 @@ local partDocumentation = serde.decode("yaml", fs.readFile("./.lune/documentatio
 local rawPartData = serde.decode("json", fs.readFile("./.lune/partdata.json")) :: any
 
 -- local path = "./test-docs/objects/"
-local path = "./wiki/docs/Objects/"
+local path = "wiki/docs/Objects/"
 local writtenPaths = {}
 
 local function getType(value)

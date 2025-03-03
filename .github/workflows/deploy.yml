@@ -6,6 +6,7 @@ on:
       - wiki/**
       - .lune/**
       - .github/workflows/deploy.yml
+      - wiki.luau
     branches:
       - master
     # Review gh actions docs if you want to further define triggers, paths, etc

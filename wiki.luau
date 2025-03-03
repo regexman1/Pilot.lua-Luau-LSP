@@ -780,3 +780,4 @@ for _, subPath in fs.readDir(path) do
 		fs.removeFile(path .. subPath)
 	end
 end
+return nil

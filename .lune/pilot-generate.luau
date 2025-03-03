@@ -71,6 +71,10 @@ local function generate(optionName: string, generatorName: string, default: bool
 
 	local endTime = os.clock()
 
+	if generatorName == "Documentation" then
+		require("../wiki.luau")
+	end
+
 	if generator.generate or generator.save then
 		stdio.write(
 			`{CHECK_MARK} Generating {stdio.color("green")}{generatorName:lower()}{stdio.color("reset")} took {Utility.formatTime(

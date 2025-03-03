@@ -29,8 +29,8 @@ jobs:
            rokit trust JohnnyMorganz/StyLua
       - name: Install lune
         run: rokit install
-      - name: Run wiki generatiom
-        run: lune run pilot-generate -- --wiki
+      - name: Run wiki generation
+        run: lune run ./wiki.luau
       - name: Install dependencies
         run: yarn install
         working-directory: ./wiki

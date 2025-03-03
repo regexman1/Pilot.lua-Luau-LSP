@@ -10,6 +10,3 @@ wiki/docs/Classes/*
 .DS_Store
 
 # gatekeeping
-documentation.yaml
-partdata.json
-wiki.lua

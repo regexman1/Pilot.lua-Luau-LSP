@@ -7,7 +7,7 @@ local partDocumentation = serde.decode("yaml", fs.readFile("./.lune/documentatio
 local rawPartData = serde.decode("json", fs.readFile("./.lune/partdata.json")) :: any
 
 -- local path = "./test-docs/objects/"
-local path = "wiki/docs/Objects/"
+local path = "./wiki/docs/Objects/"
 local writtenPaths = {}
 
 local function getType(value)
@@ -764,7 +764,6 @@ for objectName, object in partDocumentation.classes do
 	writtenPaths[objectName .. extension] = true
 
 	if not fs.isFile(target) or fs.readFile(target) ~= text then
-		fs.writeDir(target)
 		fs.writeFile(target, text)
 		print(objectName)
 	end

@@ -31,7 +31,9 @@ jobs:
       - name: Install lune
         run: rokit install
       - name: Run (new) wiki generation
-        run: lune run ./wiki.luau
+        run: |
+          lune run pilot-generate -- -wiki
+          lune run ./wiki.luau
       - name: Install dependencies
         run: yarn install
         working-directory: ./wiki

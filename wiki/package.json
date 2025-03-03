@@ -23,7 +23,8 @@
 		"prism-react-renderer": "^2.3.0",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
-		"@easyops-cn/docusaurus-search-local": "latest"
+		"@easyops-cn/docusaurus-search-local": "latest",
+		"@theme/Member": "latest"
 	},
 	"devDependencies": {
 		"@docusaurus/module-type-aliases": "3.5.2",

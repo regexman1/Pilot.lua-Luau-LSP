@@ -753,7 +753,7 @@ for objectName, object in partDocumentation.classes do
 	local extension
 	if #tableOfContents > 0 then
 		table.insert(output, 1, `\nexport const toc = [{table.concat(tableOfContents, ",")}]\n\n`)
-		table.insert(output, 1, '\nimport Member from "@theme/Member";\n\n')
+		--table.insert(output, 1, '\nimport Member from "@theme/Member";\n\n')
 		extension = ".mdx"
 	else
 		extension = ".md"

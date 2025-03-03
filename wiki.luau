@@ -775,9 +775,9 @@ for objectName, object in partDocumentation.classes do
 	-- print(table.concat(output))
 end
 
-for _, subPath in fs.readDir(path) do
+--[[for _, subPath in fs.readDir(path) do
 	if not writtenPaths[subPath] then
 		fs.removeFile(path .. subPath)
 	end
-end
+end]]
 return nil

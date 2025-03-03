@@ -10,6 +10,11 @@ local rawPartData = serde.decode("json", fs.readFile("./.lune/partdata.json")) :
 local path = "./wiki/docs/Objects/"
 local writtenPaths = {}
 
+if not fs.isDir("./wiki/docs/Objects") then
+	print("Not a directory")
+	fs.writeDir("./wiki/docs/Objects")
+end
+
 local function getType(value)
 	local function indentString(amount: number, str: string): string
 		local indent = string.rep("\t", amount)

@@ -764,7 +764,7 @@ for objectName, object in partDocumentation.classes do
 	writtenPaths[objectName .. extension] = true
 
 	if not fs.isFile(target) or fs.readFile(target) ~= text then
-		print(target, fs.isFile(target))
+		fs.writeDir(target)
 		fs.writeFile(target, text)
 		print(objectName)
 	end

@@ -37,7 +37,10 @@ const config: Config = {
 				hashed: true,
 			},
 		],
-		["theme"],
+		"./theme/Member",
+		"./theme/Heading",
+		"./theme/Icon",
+		"./theme/Root",
 	],
 	presets: [
 		[

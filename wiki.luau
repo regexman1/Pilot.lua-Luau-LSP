@@ -423,7 +423,7 @@ for objectName, object in partDocumentation.classes do
 			local hex = string.format("%2x%2x%2x", unpack(rawData.Color))
 			table.insert(
 				output,
-				`By default, its colour is <span style=\{\{color: '#{hex:upper()}'}}>#{hex}</span>.\n\n`
+				`By default, its color is <span style=\{\{color: '#{hex:upper()}'}}>#{hex}</span>.\n\n`
 			)
 		end
 
@@ -753,7 +753,7 @@ for objectName, object in partDocumentation.classes do
 	local extension
 	if #tableOfContents > 0 then
 		table.insert(output, 1, `\nexport const toc = [{table.concat(tableOfContents, ",")}]\n\n`)
-		table.insert(output, 1, '\nimport Member from "@theme/classic";\n\n')
+		table.insert(output, 1, '\nimport Member from "@theme/Member";\n\n')
 		extension = ".mdx"
 	else
 		extension = ".md"

@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
         working-directory: ./wiki
+      - name: Swizzle
+        run: npm run swizzle
+        working-directory: ./wiki
       - name: Build website
         run: yarn build
         working-directory: ./wiki

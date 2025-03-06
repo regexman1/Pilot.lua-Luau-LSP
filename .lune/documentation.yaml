@@ -3197,9 +3197,24 @@ classes:
               type: Cursor
       events:
         Configured: *ConfiguredEvent
-        CursorMoved: {}
-        CursorPressed: {}
-        CursorReleased: {}
+        CursorMoved:
+          documentation: Fires when a cursor is moved.
+          parameters:
+            - name: Cursor
+              type: Cursor
+              documentation: Cursor of the user who moved his mouse.
+        CursorPressed:
+          documentation: Fires when a user pressed with his cursor
+          parameters:
+            - name: Cursor
+              type: Cursor
+              documentation: Cursor of the user who pressed.
+        CursorReleased:
+          documentation: Fires when a user released his left click button.
+          parameters:
+            - name: Cursor
+              type: Cursor
+              documentation: Cursor of the user who released the left click button.
       configurables:
         VideoID:
           documentation:

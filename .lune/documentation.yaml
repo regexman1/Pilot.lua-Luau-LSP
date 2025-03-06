@@ -2809,7 +2809,11 @@ classes:
     hydrator:
       name: wos-object
       methods:
-        SetPosition: {}
+        SetPosition:
+          parameters:
+          - name: percentage
+            type: number
+            
       events:
         Configured: *ConfiguredEvent
       configurables:

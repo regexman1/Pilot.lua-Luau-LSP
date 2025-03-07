@@ -2813,6 +2813,7 @@ classes:
           parameters:
           - name: percentage
             type: number
+            range: [0, 1]
             
       events:
         Configured: *ConfiguredEvent

@@ -34,7 +34,7 @@ Hyperdrive.Coordinates = Coordinates.fromVector(
 ```
 
 ## fs
-Seems to be a table of pilot.lua's ENV containing modules too.
+Seems to be a table of pilot.lua's environment containing modules too.
 
 ## nature2d
 Nature2D module. [Learn more about it here](https://jaipack17.github.io/Nature2D/)

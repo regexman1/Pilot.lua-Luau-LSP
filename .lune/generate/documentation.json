@@ -2093,7 +2093,7 @@
 				},
 				"methods": {
 					"SetPosition": {
-						"unknowntype": true
+						"parameters": ["percentage: number"]
 					}
 				},
 				"properties": {

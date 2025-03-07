@@ -14,7 +14,7 @@ Used to create the <code>coordinates</code> class.
 
 #### Methods
 - **new**(_number_ UniverseCoordinatesX, _number_ UniverseCoordinatesY, _number_ SolarCoordinatesX, _number_ SolarCoordinatesY, _boolean_ inPlanet) → _Coordinate_
-- **fromVector**(_Vector2_ UniverseCoordinates, _Vector2_ SolarCoordinates, _boolean_ inPlanet) → _Coordinate_
+- **fromVectors**(_Vector2_ UniverseCoordinates, _Vector2_ SolarCoordinates, _boolean_ inPlanet) → _Coordinate_
 - **withBounds**(_CoordinateBounds_ CoordinateBounds, _number_ UniverseCoordinatesX, _number_ UniverseCoordinatesY, _number_ SolarCoordinatesX, _number_ SolarCoordinatesY, _boolean_ inPlanet) → _Coordinate_
 - **fromString**(_string_ CoordinateString, _CoordinateBounds_ CoordinateBounds) → _Coordinate_
 
@@ -26,7 +26,7 @@ Used to create the <code>coordinates</code> class.
 ```lua
 local Hyperdrive = GetPart("HyperDrive")
 local Coordinates = require("coordinates")
-Hyperdrive.Coordinates = Coordinates.fromVector(
+Hyperdrive.Coordinates = Coordinates.fromVectors(
    Vector2.new(1, 1), -- sector coords
    Vector2.new(1, 1), -- planet coords
    false -- inside planet?

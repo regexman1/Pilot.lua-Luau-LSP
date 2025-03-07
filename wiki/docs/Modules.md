@@ -9,7 +9,7 @@ This page is manually transcribed. Report any outdated info in issues!
 Used to create the <code>coordinates</code> class.
 
 #### Related types
-- _Coordinate_: \{UniverseCoordinates: _Vector2_, SolarCoordinates: _Vector2_, ...\}
+- _Coordinate_: \{UniverseCoordinates: _Vector2_, SolarCoordinates: _Vector2_, InPlanet: _boolean_, ...\}
 - _CoordinateBounds_: \{_Vector2_, _Vector2_, _Vector2_, _Vector2_\}
 
 #### Methods
@@ -34,7 +34,7 @@ Hyperdrive.Coordinates = Coordinates.fromVector(
 ```
 
 ## fs
-?
+Seems to be a table of pilot.lua's ENV containing modules too.
 
 ## nature2d
 Nature2D module. [Learn more about it here](https://jaipack17.github.io/Nature2D/)

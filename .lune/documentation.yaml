@@ -2729,12 +2729,6 @@ classes:
             - name: ...
               type: any
               documentation: Unknown.
-        PostRequest:
-          parameters:
-            - name: domain
-              type: string
-            - name: data
-              type: string
         UrlEncode:
           documentation: |-
             The <code>UrlEncode</code> function [percent-encodes](https://en.wikipedia.org/wiki/Percent-encoding) a given string so that reserved characters properly encoded with '%' and two hexadecimal characters.
@@ -2745,13 +2739,6 @@ classes:
               type: string
           returns:
             - name: encodedUrl
-              type: string
-        GetRequest:
-          parameters:
-            - name: domain
-              type: string
-          returns:
-            - name: response
               type: string
         RealPostRequest:
           parameters:

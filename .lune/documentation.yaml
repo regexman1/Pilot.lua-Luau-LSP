@@ -2345,7 +2345,7 @@ classes:
               type:
                 [string]:
                   type: number
-              documentation: Recipes to generate the model.
+              documentation: the recipes to generate the model.
       events:
         Configured: *ConfiguredEvent
         Triggered: *TriggeredEvent

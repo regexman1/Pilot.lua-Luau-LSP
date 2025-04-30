@@ -2334,7 +2334,18 @@ classes:
     hydrator:
       name: wos-object
       methods:
-        CalculateModelRecipe: {}
+        CalculateModelRecipe:
+          documentation: Returns the required resources to craft the provided model.
+          parameters:
+            - name: modelCode
+              type: string
+              documentation: The model code to check it's recipes. Defaults to the constructor's `ModelCode` configurable if not specified.
+          returns:
+            - name: recipes
+              type:
+                [string]:
+                  type: number
+              documentation: Recipes to generate the model.
       events:
         Configured: *ConfiguredEvent
         Triggered: *TriggeredEvent

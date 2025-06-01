@@ -3351,7 +3351,10 @@ classes:
               type: any
             - name: value
               type: any
-        Compress: {}
+        Compress:
+           documentation: |-
+               Compresses the contents of the disk,
+               this method is useless however because WOS automatically compresses data before saving it to the disk.
         ReadAll:
           documentation: Reads the entire content of the disk and outputs it as a dictionary.
           returns:
@@ -3359,7 +3362,13 @@ classes:
               type:
                 [any]:
                   type: any
-        WriteAll: {}
+        WriteAll:
+           documentation: Overwrites the entire disks data with the specified dictionary.
+           parameters:
+             - name: content
+               type:
+                   [any]:
+                      type: any
         Read:
           documentation: Reads the specified key from the disk and returns the value.
           parameters:

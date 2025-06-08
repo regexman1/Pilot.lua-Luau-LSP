@@ -3415,7 +3415,15 @@ classes:
               type: string
       events:
         KeyPressed: *KeyPressedEvent
-        TextInputted: {}
+        TextInputted:
+           documentation: Fires when a user clicks the keyboard and sends a string.
+           parameters:
+              - name: text
+                type: string
+                documentation: The text inputted into the keyboard.
+              - name: player
+                type: string
+                documentation: The username of the player.
         UserInput: *UserInputEvent
   Seat:
     documentation:

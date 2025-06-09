@@ -28,3 +28,7 @@
 	--ifm-color-primary-darkest: #3266a8;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+img[src*="*right"] {
+	float: right;
+}

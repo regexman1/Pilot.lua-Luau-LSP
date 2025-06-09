@@ -333,7 +333,7 @@ for objectName, object in partDocumentation.classes do
 	local tableOfContents = {}
 
 	if fs.isFile(`./wiki/static/wospart/{objectName}.png`) then
-		table.insert(output, `![{objectName}](../../static/wospart/{objectName}.png)`)
+		table.insert(output, `![{objectName}](../../static/wospart/{objectName}.png#right)`)
 	end
 
 	local function writeGroupHeader(header: string)

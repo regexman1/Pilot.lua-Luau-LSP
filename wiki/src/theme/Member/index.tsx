@@ -107,7 +107,7 @@ export default function Heading({
                     pauseOnHover: true,
                     draggable: false,
                     progress: undefined,
-                    theme: useColorMode(),
+                    theme: "dark", //useColorMode(),
                     transition: Zoom,
                   }
                 );

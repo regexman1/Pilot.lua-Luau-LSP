@@ -98,7 +98,7 @@ export default function Heading({
               title={markdownLinkTitle}
               onClick={() => {
                 toast(
-                  <a>Copied the <code>${id}</code> link to clipboard.</a>,
+                  <a>Copied the <code>{id}</code> link to clipboard.</a>,
                   {
                     position: "top-center",
                     autoClose: 1000,

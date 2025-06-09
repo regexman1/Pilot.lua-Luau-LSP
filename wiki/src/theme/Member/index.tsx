@@ -97,7 +97,7 @@ export default function Heading({
               aria-label={markdownLinkTitle}
               title={markdownLinkTitle}
               onClick={() => {
-                toast.dark(
+                toast(
                   `Copied the <code>${id}</code> link to clipboard.`,
                   {
                     position: "top-center",
@@ -107,7 +107,7 @@ export default function Heading({
                     pauseOnHover: true,
                     draggable: false,
                     progress: undefined,
-                    theme: useColorMode().colorMode,
+                    theme: "dark", //useColorMode().colorMode,
                     transition: Zoom,
                   }
                 );

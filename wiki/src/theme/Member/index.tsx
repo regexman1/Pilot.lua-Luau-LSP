@@ -98,7 +98,7 @@ export default function Heading({
               title={markdownLinkTitle}
               onClick={() => {
                 toast(
-                  `Copied the <code>${id}</code> link to clipboard.`,
+                  <a>Copied the <code>${id}</code> link to clipboard.</a>,
                   {
                     position: "top-center",
                     autoClose: 1000,
@@ -107,7 +107,7 @@ export default function Heading({
                     pauseOnHover: true,
                     draggable: false,
                     progress: undefined,
-                    theme: "dark", //useColorMode().colorMode,
+                    theme: useColorMode(),
                     transition: Zoom,
                   }
                 );

@@ -23,7 +23,7 @@ export default function Heading({
 }: Props & {
   group: "method" | "property" | "configurable" | "event" | "group";
 }): JSX.Element {
-  const { colorMode } = useColorTheme();
+  const { colorMode } = useColorMode();
   const brokenLinks = useBrokenLinks();
   const {
     navbar: { hideOnScroll },

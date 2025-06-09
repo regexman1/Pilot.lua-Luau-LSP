@@ -92,14 +92,14 @@ const config: Config = {
 					position: "right",
 				},
 			],
-			announcementBar: {
-				id: "find_outdatedinfo",
-				content:
-					"Report any undocumented and outdated info by opening an issue.",
-				backgroundColor: "#fafbfc",
-				textColor: "#091E42",
-				isCloseable: false,
-			},
+		},
+		announcementBar: {
+			id: "find_outdatedinfo",
+			content:
+				"Report any undocumented and outdated info by opening an issue.",
+			backgroundColor: "#fafbfc",
+			textColor: "#091E42",
+			isCloseable: false,
 		},
 		footer: {
 			style: "dark",

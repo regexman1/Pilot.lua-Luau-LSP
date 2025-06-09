@@ -92,6 +92,14 @@ const config: Config = {
 					position: "right",
 				},
 			],
+			announcementBar: {
+				id: "find_outdatedinfo",
+				content:
+					"Report any undocumented and outdated info by opening an issue.",
+				backgroundColor: "#fafbfc",
+				textColor: "#091E42",
+				isCloseable: false,
+			},
 		},
 		footer: {
 			style: "dark",
@@ -120,21 +128,7 @@ const config: Config = {
 		prism: {
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,
-		},
-		themeConfig: {
-			colorMode: {
-				defaultMode: "dark",
-				respectPrefersColorScheme: true,
-			},
-			announcementBar: {
-				id: "find_outdatedinfo",
-				content:
-					"Report any undocumented and outdated info by opening an issue.",
-				backgroundColor: "#fafbfc",
-				textColor: "#091E42",
-				isCloseable: false,
-			},
-		},
+		}
 	} satisfies Preset.ThemeConfig,
 };
 

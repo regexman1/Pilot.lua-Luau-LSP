@@ -1911,7 +1911,7 @@ classes:
                   type: MethodData
         GetNameOfOwnerAsync:
           documentation:
-            deprecated: Use <code>require("player"):GetNameFromUserIdAsync</code> instead.
+            deprecated: Use <code>require("players"):GetUsername</code> instead.
           returns:
             - name: ownerUsername
               nullable-type: string

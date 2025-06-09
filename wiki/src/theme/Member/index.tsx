@@ -97,10 +97,8 @@ export default function Heading({
               aria-label={markdownLinkTitle}
               title={markdownLinkTitle}
               onClick={() => {
-                toast(
-                  <a>
-                    Copied the <code>{id}</code> link to clipboard.
-                  </a>,
+                toast.dark(
+                  `Copied the <code>${id}</code> link to clipboard.`,
                   {
                     position: "top-center",
                     autoClose: 1000,

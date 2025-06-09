@@ -8,6 +8,7 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
 import type { Props } from "@theme/Heading";
 
 import { toast, ToastContainer, Zoom } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import IconCopy from "@theme/Icon/Copy";
 import IconLink from "@theme/Icon/Link";

@@ -7,7 +7,7 @@ import useBrokenLinks from "@docusaurus/useBrokenLinks";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import type { Props } from "@theme/Heading";
 
-import { toast, Zoom } from "react-toastify";
+import { toast, ToastContainer, Zoom } from "react-toastify";
 
 import IconCopy from "@theme/Icon/Copy";
 import IconLink from "@theme/Icon/Link";
@@ -15,8 +15,6 @@ import IconLink from "@theme/Icon/Link";
 import styles from "./styles.module.css";
 
 import { useLocation } from "react-router-dom";
-
-toast.configure();
 
 export default function Heading({
   id,
@@ -123,6 +121,7 @@ export default function Heading({
           );
         }}
       </BrowserOnly>
+      <ToastContainer/>
     </HeaderSize>
   );
 }

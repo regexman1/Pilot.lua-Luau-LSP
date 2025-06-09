@@ -97,7 +97,7 @@ export default function Heading({
               aria-label={markdownLinkTitle}
               title={markdownLinkTitle}
               onClick={() => {
-                toast.dark(
+                /*toast.dark(
                   <a>
                     Copied the <code>{id}</code> link to clipboard.
                   </a>,
@@ -112,7 +112,7 @@ export default function Heading({
                     theme: useColorMode().colorMode,
                     transition: Zoom,
                   }
-                );
+                );*/
                 navigator.clipboard.writeText(markdownLink);
               }}
             >

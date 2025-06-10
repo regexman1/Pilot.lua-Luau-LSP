@@ -19,7 +19,7 @@ This page is manually transcribed from the data and is not automatically generat
 - **TriggerPort**(_Port | number_ port)
   - Triggers the specified port.
 - **JSONDecode**(_string_ data) → _JSON_
-  - Encodes JSON. Proxy for `HttpService:JSONDecode`
+  - Decodes JSON. Proxy for `HttpService:JSONDecode`
 - **JSONEncode**(_JSON_ data) → _string_
   - Encodes JSON. Proxy for `HttpService:JSONEncode`
 - **Beep**(_number?_ frequency)

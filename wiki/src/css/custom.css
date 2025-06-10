@@ -29,6 +29,9 @@
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+img {
+	border-radius: 10px;
+}
 img[src*="#right"] {
 	float: right;
 }

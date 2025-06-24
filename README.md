@@ -1,8 +1,12 @@
 ## WOS Wiki documentation & Types for luau LSP.
 Project originally made by arvid. ~Continued by regexman since arvid left WOS.~
-As of 6/23/25, this fork has been discontinued due to arvid coming back and continuing to maintain the original wiki.
 
-Found outdated info? Open a issue and I will look into it.
+As of 6/23/25, this fork has been discontinued due to arvid coming back and continuing to maintain the original wiki. You can find his wiki & repo here:
+
+[Repo](https://github.com/ArvidSilverlock/Pilot.lua-Luau-LSP)
+[Wiki](https://arvidsilverlock.github.io/Pilot.lua-Luau-LSP/)
+
+
 ## Installation
 
 Install the [Luau LSP](https://marketplace.visualstudio.com/items?itemName=JohnnyMorganz.luau-lsp) visual studio code extension. If you are running a version <1.33.1 you will need to find and replace `Enum.` with `Enum` in the `global.d.luau` file, make sure you are not in regex mode, as that would cause issues.

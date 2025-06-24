@@ -1,5 +1,6 @@
 ## WOS Wiki documentation & Types for luau LSP.
-Project originally made by arvid. Continued by regexman since arvid left WOS.
+Project originally made by arvid. ~Continued by regexman since arvid left WOS.~
+As of 6/23/25, this fork has been discontinued due to arvid coming back and continuing to maintain the original wiki.
 
 Found outdated info? Open a issue and I will look into it.
 ## Installation
